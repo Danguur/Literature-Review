@@ -57,7 +57,7 @@
         "category_id": null,
         "authors_year": "Sheikh Burhan Ul Haque | 2024",
         "title": "A fuzzy-based frame transformation to mitigate the impact of adversarial attacks in deep learning-based real-time video surveillance systems",
-        "contribution": "",
+        "contribution": "<p>T</p>",
         "results": "",
         "research_gap": "",
         "dataset": "",
@@ -187,11 +187,24 @@
         "category_id": "5",
         "authors_year": "Monserrat et al | 2024",
         "title": "A Survey of Adversarial Attacks: An Open Issue for Deep Learning Sentiment Analysis Models",
+        "contribution": "<ol><li><strong>First comprehensive review</strong> specifically focused on adversarial attacks in sentiment analysis<ul><li>Previous reviews covered all text applications</li><li>This one focuses only on sentiment analysis</li></ul></li><li><strong>New taxonomy</strong> for classifying attacks in sentiment analysis<ul><li>Organized attacks by: model access, analysis level, granularity, element selection, strategy, DNN model</li></ul></li><li><strong>Self-contained framework</strong><ul><li>Includes all basic concepts needed to understand adversarial attacks</li><li>Doesn't require reading other papers first</li></ul></li><li><strong>Identifies research gaps</strong><ul><li>Points out what hasn't been studied yet</li><li>Suggests future research directions</li></ul></li><li><strong>Summarizes defenses</strong><ul><li>Lists and explains current defense methods</li><li>Shows which defenses work against which attacks</li></ul></li></ol>",
+        "results": "<ol><li><strong>Deep Learning Models Are vulnerable</strong><ul><li>All tested sentiment analysis AIs can be tricked</li><li>Even state-of-the-art models like BERT aren't safe</li><li>Success rates of attacks are high (often >80%)</li></ul></li><li><strong>Different Attacks Work Differently</strong><ul><li>Character-level attacks (misspellings) are easy to do</li><li>Word-level attacks (synonyms) are harder to detect</li><li>Sentence-level attacks (paraphrasing) are most natural</li></ul></li><li><strong>Black Box Attacks Are Still Effective</strong><ul><li>Even without knowing the AI, attacks can work</li><li>This is dangerous because attackers don't need inside information</li><li>Example: Someone can attack your AI without ever seeing its code</li></ul></li><li><strong>Defenses Help But Aren't Perfect</strong><ul><li>Adversarial training improves robustness</li><li>But models can still be tricked with new attacks</li><li>No defense is 100% effective</li></ul></li><li><strong>Research is Growing</strong><ul><li>Number of papers on this topic has increased rapidly</li><li>More researchers are studying both attacks and defenses</li><li>The field is still young and developing</li></ul></li><li><strong>Challenges Remain</strong><ul><li>Making attacks imperceptible is hard</li><li>Transferability is limited </li></ul></li></ol>",
+        "research_gap": "<p><strong>Gap 1: Perceptibility - Making Changes Invisible</strong></p><ul><li><strong>Current Problem:</strong> Text changes are easy to see</li><li><strong>Possible Research:</strong> Use synonyms that are less common but still correct<ul><li>Instead of \"happy\" → \"h@ppy\" (visible)</li><li>Try \"happy\" → \"joyful\" (more natural)</li><li>But \"joyful\" might not trick the AI as well</li></ul></li></ul><p><strong>Research Question:</strong> Can we find words that humans think are synonyms but AI thinks are different?</p><p> </p><p><strong>Gap 2: Transferability - Making Attacks Work Everywhere</strong></p><ul><li><strong>Current Problem:</strong> Attack on one AI might not work on another</li><li><strong>Possible Research:</strong> Find universal changes that fool all AIs<ul><li>If we know what all AIs are bad at, we can attack those weaknesses</li></ul></li></ul><p><strong>Research Question:</strong> What patterns make ALL sentiment AIs confused?</p><p> </p><p> </p><p> </p><p><strong>Gap 3: Attack-Independent Defenses</strong></p><ul><li><strong>Current Problem:</strong> Defenses know about the attack method</li><li><strong>Possible Research:</strong> Create defense that works for any attack<ul><li>Like a general \"security check\" for all text</li><li>Check grammar, spelling, and meaning</li></ul></li></ul><p><strong>Research Question:</strong> Can we create a defense that just checks if text is \"natural\" regardless of attack type?</p><p> </p><p> </p><p><strong>Gap 4: Real-World Testing</strong></p><ul><li><strong>Current Problem:</strong> Most attacks tested on clean datasets</li><li><strong>Possible Research:</strong> Test attacks on real-world messy data<ul><li>Social media has misspellings anyway</li><li>Harder to distinguish attacks from real mistakes</li></ul></li></ul><p><strong>Research Question:</strong> Can we detect attacks when data is already messy?</p><p> </p><p> </p>",
+        "dataset": "<p>The paper reviews studies that used these datasets:</p><figure class=\"table\"><table><thead><tr><th>Dataset</th><th>What it is</th><th>Used For</th></tr></thead><tbody><tr><td><strong>IMDB Movie Reviews</strong></td><td>50,000 movie reviews</td><td>Sentiment classification (positive/negative)</td></tr><tr><td><strong>SNLI (Stanford Natural Language Inference)</strong></td><td>570,000 sentence pairs</td><td>Textual entailment (does one sentence follow from another?)</td></tr><tr><td><strong>Various Social Media Datasets</strong></td><td>Tweets, Facebook posts</td><td>Social media sentiment analysis</td></tr></tbody></table></figure><p> </p><p> </p><p><strong>Note:</strong> The paper itself doesn't use datasets (it's a review paper). These are datasets used by the papers being reviewed</p>",
+        "original_paper": "uploads/1782712800_37c6716d655386c60c8ea3215b7eb1c6cc26.pdf",
+        "detailed_notes_docx": "uploads/notes_20_1782882484.docx"
+    },
+    {
+        "id": "21",
+        "sno": "16",
+        "category_id": "5",
+        "authors_year": "Zhang, Wei Emma; Sheng, Quan Z.; Alhazmi, Ahoud; Li, Chenliang | 2020",
+        "title": "Adversarial Attacks on Deep-learning Models in Natural Language Processing",
         "contribution": "",
         "results": "",
         "research_gap": "",
         "dataset": "",
-        "original_paper": "uploads/1782712800_37c6716d655386c60c8ea3215b7eb1c6cc26.pdf",
+        "original_paper": "uploads/1782883627_3374217 (1).pdf",
         "detailed_notes_docx": ""
     }
 ]
